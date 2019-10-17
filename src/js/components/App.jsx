@@ -1,7 +1,6 @@
 import React from "react";
 import List from "./List.jsx";
 import Form from "./Form.jsx";
-import Button from '@material-ui/core/Button'
 
 
 const App = () => (

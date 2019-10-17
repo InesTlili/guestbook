@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import Input from '@material-ui/core/Input';
 import {Button} from '@material-ui/core';
 class EditGuest extends Component {
 
@@ -27,7 +26,7 @@ return (
     defaultValue={this.props.guest.email}/>
     <input required type="text" ref={(input) => this.getComment = input}
     defaultValue={this.props.guest.comment}/>
-    <Button variant="contained" color="secondary">Update</Button>
+    <Button type="submit" variant="contained" color="secondary">Update</Button>
   </form>
 </div>
 );

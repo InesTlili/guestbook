@@ -35,7 +35,7 @@ class ConnectedForm extends Component {
   }
 
   render() {
-    const { name, email, comment, editing } = this.state;
+    const { name, email, comment} = this.state;
     return (
       <div>
       <Typography component="h2" variant="display2" gutterBottom align="left">
